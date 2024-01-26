@@ -94,6 +94,10 @@ input {
   color: #6d2932;
 }
 
+input:focus {
+  outline: none;
+}
+
 ::-webkit-input-placeholder {
   color: #6d2932;
   font-weight: bold;
