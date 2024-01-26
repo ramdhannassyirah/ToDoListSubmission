@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/assets/css/style.css" />
+    <link href="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.10.4/dist/sweetalert2.min.css
+" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>ToDoList</title>
+  </head>
+  <body>
+    <div class="">
+    <div class="navbar">
+      
+        <h1>TaskDo</h2>
+       
+      </div>
+<main class="container">
+
+  <div class="input_task">
+        <div class="input">
+            <label for="add" >
+                <div onclick="addTask()"><i class="fa-solid fa-lg fa-circle-plus" style="color: #6d2932;"></i></div>
+            </label>
+            <input type="text" name="add" placeholder="Add New Task" id="add">
+        </div>
+      </div>
+      <div  id="taskList" >
+          <!-- Daftar tugas akan ditampilkan di sini -->
+      </div>
+    </main>
+  </div>
+ 
+    <script src="https://kit.fontawesome.com/23bb81e0e5.js" crossorigin="anonymous"></script>
+    <script src="/src/assets/js/script.js"></script>
+  
+  </body>
+</html>
