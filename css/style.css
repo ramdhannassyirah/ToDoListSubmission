@@ -136,3 +136,20 @@ input {
   font-style: italic;
   color: #561c24;
 }
+
+@media screen and (max-width: 600px) {
+  .task {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    background-color: #6d2932;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+}
