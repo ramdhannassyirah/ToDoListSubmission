@@ -91,6 +91,12 @@ input {
   padding: 10px;
   border: none;
   background-color: #c7b7a3;
+  color: #6d2932;
+}
+
+::-webkit-input-placeholder {
+  color: #6d2932;
+  font-weight: bold;
 }
 
 .list_paragraf {
