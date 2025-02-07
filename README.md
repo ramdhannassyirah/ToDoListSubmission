@@ -34,8 +34,8 @@ To-Do List App adalah aplikasi sederhana berbasis HTML, CSS, dan JavaScript untu
 
 ### 1️⃣ Clone Repository
 ```sh
-git clone https://github.com/your-username/todo-list-app.git
-cd todo-list-app
+git clone https://github.com/ramdhannassyirah/ToDoListSubmission.git
+cd ToDoListSubmission
 ```
 
 ### 2️⃣ Buka di Browser
